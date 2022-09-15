@@ -1,10 +1,11 @@
 import React from 'react'
 
-const ChildComponent = () => {
+const ChildComponent = (props) => {
+  const {userName} = props;
   return (
-    <div>
-      child
-    </div>
+    <ul className='m-4'>
+      <li>{userName}</li>
+    </ul>
   )
 }
 
