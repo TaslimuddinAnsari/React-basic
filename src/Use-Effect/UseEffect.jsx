@@ -21,7 +21,11 @@ const UseEffect = () => {
         .then(res => res.json())
         .then(json =>setItems(json))
 
-        return () => setcount(0)
+        // Some effects require cleanup to reduce memory leaks. We need to add return mathod at the end of useEffect
+        return () => {
+            console.log("Clean up the count");
+            setcount(0)
+        }
     }, [resourceType])
 
     return (
