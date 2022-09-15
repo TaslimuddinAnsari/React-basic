@@ -1,24 +1,16 @@
-import logo from './logo.svg';
 import './App.css';
+import {Route, Routes} from 'react-router-dom';
+import PageLinks from './PageLinks';
+import ParentComponent from './Props/ParentComponent';
+import UseState from './Use-State/UseState';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Routes>
+      <Route path='/' element={<PageLinks/>} />
+      <Route path='/parentComponent' element={<ParentComponent/>} />
+      <Route path='/useState' element={<UseState/>} />
+    </Routes>
   );
 }
 
