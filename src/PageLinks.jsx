@@ -9,6 +9,7 @@ const PageLinks = () => {
         <h5><Link to='/useState'>Use-State</Link></h5>
         <h5><Link to='/useEffect'>Use-Effect</Link></h5>
         <h5><Link to='/useContext'>Use-Context</Link></h5>
+        <h5><Link to='/useReducer'>Use-Reducer</Link></h5>
     </div>
   )
 }

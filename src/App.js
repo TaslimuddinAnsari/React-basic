@@ -5,6 +5,7 @@ import ParentComponent from './Props/ParentComponent';
 import UseState from './Use-State/UseState';
 import UseEffect from './Use-Effect/UseEffect';
 import UseContext from './Use-Context/UseContext';
+import UseReducer from './Use-Reducer/UseReducer';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <Route path='/useState' element={<UseState/>} />
       <Route path='/useEffect' element={<UseEffect />} />
       <Route path='/useContext' element={<UseContext/>} />
+      <Route path='/useReducer' element={<UseReducer/>} />
     </Routes>
   );
 }
