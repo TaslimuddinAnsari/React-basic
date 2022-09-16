@@ -16,6 +16,10 @@ increment() {
 componentDidMount() {
     console.log("componentDidMount:  When component render first time");
 }
+
+componentWillUnmount() {
+    console.log("componentWillUnmount : Component Remove")
+}
     render() {
         return (
             <div className='m-4'>
