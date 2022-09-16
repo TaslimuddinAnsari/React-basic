@@ -10,6 +10,7 @@ const PageLinks = () => {
         <h5><Link to='/useEffect'>Use-Effect</Link></h5>
         <h5><Link to='/useContext'>Use-Context</Link></h5>
         <h5><Link to='/useReducer'>Use-Reducer</Link></h5>
+        <h5><Link to='/useRef'>Use-Ref</Link></h5>
     </div>
   )
 }
