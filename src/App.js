@@ -9,10 +9,13 @@ import UseReducer from './Use-Reducer/UseReducer';
 import UseRefHook from './Use-Ref/UseRefHook';
 import UseCallBack from './Use-Call-Back/UseCallBack';
 import UseMemo from './Use-Memo/UseMemo';
-
+import UseForm from './Use-Form/UseForm';
+import ClassComponent from './Class-Component/ClassComponent';
+import FunctionComponent  from './Function-Component/FunctionComponent';
 function App() {
   return (
     <Routes>
+      <Route path='/functionComponent' element={<FunctionComponent/>} />
       <Route path='/' element={<PageLinks/>} />
       <Route path='/parentComponent' element={<ParentComponent/>} />
       <Route path='/useState' element={<UseState/>} />
@@ -22,6 +25,9 @@ function App() {
       <Route path='/useRef' element={<UseRefHook/>} />
       <Route path='/useCallBack' element= {<UseCallBack />} />
       <Route path='/useMemo' element= {<UseMemo/>} />
+      <Route path='/useForm' element= {<UseForm />} />
+
+      <Route path='/classComponent' element={<ClassComponent/>} />
     </Routes>
   );
 }
