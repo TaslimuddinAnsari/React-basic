@@ -1,9 +1,10 @@
 import React, { useState, } from 'react';
 import { useForm } from 'react-hook-form';
+
 const UseForm = () => {
     const { register, handleSubmit } = useForm();
     const [data, setData] = useState("");
-    let counter = 0;
+
     const onSubmit = (d) => {
         alert(JSON.stringify(d));
         setData(JSON.stringify(d));

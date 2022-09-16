@@ -12,6 +12,8 @@ import UseMemo from './Use-Memo/UseMemo';
 import UseForm from './Use-Form/UseForm';
 import ClassComponent from './Class-Component/ClassComponent';
 import FunctionComponent  from './Function-Component/FunctionComponent';
+import ComponentLife from './Life-Cycle/ComponentLife';
+import LifeCycleMethod from './Life-Cycle/LifeCycleMethod';
 function App() {
   return (
     <Routes>
@@ -28,6 +30,8 @@ function App() {
       <Route path='/useForm' element= {<UseForm />} />
 
       <Route path='/classComponent' element={<ClassComponent/>} />
+      <Route path='/componentLife' element={<ComponentLife/>} />
+      <Route path='/lifeCycleMathod' element={<LifeCycleMethod/>} />
     </Routes>
   );
 }
