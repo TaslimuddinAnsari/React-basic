@@ -25,6 +25,9 @@ const PageLinks = () => {
         <h5><Link to="/lifeCycleMathod">Life-cycle-Demo</Link></h5>
         <h5><Link to="/shouldComponentUpdate">ShouldComponentUpdate</Link></h5>
         <h5><Link to='/getSnapshotBeforeUpdate'>getSnapshotBeforeUpdate</Link></h5>
+        <h5>Higher-order-Component</h5>
+        
+        <h5><Link to='/higherOrderComponent'>Higher-order-Component</Link></h5>
       </div>
     </div>
   )
