@@ -14,6 +14,7 @@ import ClassComponent from './Class-Component/ClassComponent';
 import FunctionComponent  from './Function-Component/FunctionComponent';
 import ComponentLife from './Life-Cycle/ComponentLife';
 import LifeCycleMethod from './Life-Cycle/LifeCycleMethod';
+import ShouldComponentUpdate from './Life-Cycle/ShouldComponentUpdate';
 function App() {
   return (
     <Routes>
@@ -32,6 +33,7 @@ function App() {
       <Route path='/classComponent' element={<ClassComponent/>} />
       <Route path='/componentLife' element={<ComponentLife/>} />
       <Route path='/lifeCycleMathod' element={<LifeCycleMethod/>} />
+      <Route path='/shouldComponentUpdate' element={<ShouldComponentUpdate/>} />
     </Routes>
   );
 }
