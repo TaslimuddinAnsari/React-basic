@@ -15,6 +15,7 @@ import FunctionComponent  from './Function-Component/FunctionComponent';
 import ComponentLife from './Life-Cycle/ComponentLife';
 import LifeCycleMethod from './Life-Cycle/LifeCycleMethod';
 import ShouldComponentUpdate from './Life-Cycle/ShouldComponentUpdate';
+import GetSnapshotBeforeUpdate from './Life-Cycle/GetSnapshotBeforeUpdate'
 function App() {
   return (
     <Routes>
@@ -34,6 +35,7 @@ function App() {
       <Route path='/componentLife' element={<ComponentLife/>} />
       <Route path='/lifeCycleMathod' element={<LifeCycleMethod/>} />
       <Route path='/shouldComponentUpdate' element={<ShouldComponentUpdate/>} />
+      <Route path='/getSnapshotBeforeUpdate' element={<GetSnapshotBeforeUpdate />} />
     </Routes>
   );
 }
