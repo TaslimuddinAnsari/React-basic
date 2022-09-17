@@ -23,6 +23,9 @@ componentWillUnmount() {
     render() {
         return (
             <div className='m-4'>
+
+                <h3> Goto the console </h3>
+                <h5>From Parent class</h5>
                 {this.state.count}
                
                <Counter number={this.state.count}/>

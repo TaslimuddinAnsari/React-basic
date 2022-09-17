@@ -21,7 +21,7 @@ class Counter extends React.Component {
     render() {
         return (
             <div className='m-4'>
-                <h5>This is counter class</h5>
+                <h5>This is child class</h5>
                 {this.props.number}
             </div>
         )
