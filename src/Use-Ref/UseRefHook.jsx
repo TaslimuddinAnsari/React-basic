@@ -17,8 +17,10 @@ const UseRefHook = () => {
   return (
     <div className='m-4'>
       <h4>Use Ref Hook</h4>
-      <input ref={refElem} type="text" value={names} onChange={ (e) =>
-        setName(e.target.value)}/>
+      <input ref={refElem} type="text" value={names}
+      onChange={ (e) =>
+      setName(e.target.value)}
+      />
 
         <button className='btn btn-primary m-4'
         onClick={reSet}>Reset</button>

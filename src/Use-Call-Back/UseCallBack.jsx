@@ -20,7 +20,8 @@ const UseCallBack = () => {
 
     <div className='m-4'>
       <h4>useCallBack Hook</h4>
-      <ComponentA learning={learning} count= {count} />
+      <ComponentA learning={learning} 
+      count= {count} />
       <h4 className='m-4'>{add}</h4>
       <button className='btn btn-primary' onClick={() =>setAdd(add + 1)}>Addition</button>
       <h4>Count: {count}</h4>

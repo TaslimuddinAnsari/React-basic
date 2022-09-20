@@ -5,6 +5,10 @@ class ClassComponent extends React.Component {
         super(props);
         this.state = { change: true };
       }
+
+      // state = {
+      //   change: true
+      // }
   render() {
     return (
         <div>

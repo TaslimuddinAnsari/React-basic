@@ -10,9 +10,14 @@ const UseMemo = () => {
     //     return add*5
     // }
 
-    const multiplication = useMemo(function multiplay(){
-        console.log("use-Memo");
-        return add * 5;
+    // const multiplication = useMemo(function multiplay(){
+    //     console.log("use-Memo");
+    //     return add * 5;
+    // }, [add])
+
+    const multiplication = useMemo(function multiplay (){
+      console.log("useMemo");
+      return add * 5;
     }, [add])
 
   return (
