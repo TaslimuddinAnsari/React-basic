@@ -1,0 +1,13 @@
+:root{
+    --border-color: blue;
+}
+.container{
+    text-align: center;
+}
+
+
+.traingle{
+    width: 0;
+    border: 200px solid transparent;
+    border-color: transparent  transparent var(--border-color) transparent ;
+}

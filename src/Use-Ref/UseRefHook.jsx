@@ -31,4 +31,4 @@ const UseRefHook = () => {
   )
 }
 
-export default UseRefHook
+export default UseRefHook;

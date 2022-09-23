@@ -18,6 +18,9 @@ import ShouldComponentUpdate from './Life-Cycle/ShouldComponentUpdate';
 import GetSnapshotBeforeUpdate from './Life-Cycle/GetSnapshotBeforeUpdate'
 import ClickCounter from './Higher-Order-Component/ClickCounter';
 import HigherOrder from './Higher-Order-Component/HigherOrder';
+import Demo from './Demo/Demo';
+import TraingleShape from './Demo/TraingleShape';
+// import Demo from './Props/Demo';
 function App() {
   return (
     <Routes>
@@ -40,6 +43,11 @@ function App() {
       <Route path='/getSnapshotBeforeUpdate' element={<GetSnapshotBeforeUpdate />} />
       {/* <Route path='/higherOrderComponent' element={<ClickCounter/>} /> */}
       <Route path='/higherOrderComponent' element={<HigherOrder/>} />
+
+      {/* <Route path='/demo' element={<Demo />} /> */}
+
+      <Route path='/incrementValue' element={<Demo />} />
+      <Route path='/traingleShape' element={<TraingleShape/>} />
     </Routes>
   );
 }

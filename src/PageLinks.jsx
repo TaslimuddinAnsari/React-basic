@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 const PageLinks = () => {
   return (
     <div className='m-5' style={{ 'display': 'flex', "flexDirection": 'row' }}>
-      <div className='m-4'>
+      {/* <div className='m-4'>
         <h5>Functional Component</h5>
         <h5><Link to="/functionComponent">Funcational-Component</Link></h5>
         <h5><Link to='/parentComponent'>Props-Concept</Link></h5>
@@ -16,10 +16,10 @@ const PageLinks = () => {
         <h5><Link to='/useCallBack'>Use-Call-Back</Link></h5>
         <h5><Link to='/useMemo'>Use-Memo</Link></h5>
         <h5><Link to='/useForm'>Use-Form</Link></h5>
-      </div>
+      </div> */}
 
       <div className='m-4'>
-        <h5>Class-Component</h5>
+        {/* <h5>Class-Component</h5>
         <h5><Link to='/classComponent'>Class-Component</Link></h5>
         <h5><Link to="/componentLife">Life-cycle-proces</Link></h5>
         <h5><Link to="/lifeCycleMathod">Life-cycle-Demo</Link></h5>
@@ -27,7 +27,10 @@ const PageLinks = () => {
         <h5><Link to='/getSnapshotBeforeUpdate'>getSnapshotBeforeUpdate</Link></h5>
         <h5>Higher-order-Component</h5>
         
-        <h5><Link to='/higherOrderComponent'>Higher-order-Component</Link></h5>
+        <h5><Link to='/higherOrderComponent'>Higher-order-Component</Link></h5> */}
+        {/* <h5><Link to="/demo">Demo</Link></h5> */}
+        <h5><Link to='/incrementValue'>Button-Demo</Link></h5>
+        <h5><Link to='/traingleShape'>Taingle-Shape</Link></h5>
       </div>
     </div>
   )
