@@ -17,7 +17,7 @@ const Demo = () => {
     }
 
   return (
-    <div>
+    <div style={{"text-align": "center"}}>
       <Component1 count= {count} 
       handleComponet1={handleComponet1}/>
       <Component2 number = {num} 

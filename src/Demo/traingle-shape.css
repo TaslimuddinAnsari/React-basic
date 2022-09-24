@@ -1,13 +1,19 @@
 :root{
     --border-color: blue;
+    --background:antiquewhite;
 }
 .container{
     text-align: center;
+    margin-top: 20px;
 }
 
 
+
 .traingle{
+    background-color: var(--background);
     width: 0;
-    border: 200px solid transparent;
-    border-color: transparent  transparent var(--border-color) transparent ;
+    border-bottom: 150px solid var(--border-color);
+    border-left: 150px solid transparent;
+    border-right: 150px solid transparent;
+    border-top: 150px solid transparent;
 }
