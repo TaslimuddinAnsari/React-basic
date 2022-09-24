@@ -11,5 +11,4 @@ const Component1 = (props) => {
         </div>
     )
 }
-
-export default Component1
+export default Component1;
