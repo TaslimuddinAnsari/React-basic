@@ -1,5 +1,5 @@
 import './App.css';
-import {Route, Router, Routes} from 'react-router-dom';
+import {Route, Routes} from 'react-router-dom';
 import PageLinks from './PageLinks';
 import ParentComponent from './Props/ParentComponent';
 import UseState from './Use-State/UseState';
@@ -16,7 +16,7 @@ import ComponentLife from './Life-Cycle/ComponentLife';
 import LifeCycleMethod from './Life-Cycle/LifeCycleMethod';
 import ShouldComponentUpdate from './Life-Cycle/ShouldComponentUpdate';
 import GetSnapshotBeforeUpdate from './Life-Cycle/GetSnapshotBeforeUpdate'
-import ClickCounter from './Higher-Order-Component/ClickCounter';
+// import ClickCounter from './Higher-Order-Component/ClickCounter';
 import HigherOrder from './Higher-Order-Component/HigherOrder';
 import Demo from './Demo/Demo';
 import TraingleShape from './Demo/TraingleShape';
