@@ -1,5 +1,5 @@
 import './App.css';
-import {Route, Routes} from 'react-router-dom';
+import {Route, Router, Routes} from 'react-router-dom';
 import PageLinks from './PageLinks';
 import ParentComponent from './Props/ParentComponent';
 import UseState from './Use-State/UseState';
@@ -20,6 +20,8 @@ import ClickCounter from './Higher-Order-Component/ClickCounter';
 import HigherOrder from './Higher-Order-Component/HigherOrder';
 import Demo from './Demo/Demo';
 import TraingleShape from './Demo/TraingleShape';
+import ReduxApp from './React-Redux/ReduxApp';
+// import CakeContainer from './React-Redux/CakeContainer';
 // import Demo from './Props/Demo';
 function App() {
   return (
@@ -48,6 +50,7 @@ function App() {
 
       <Route path='/incrementValue' element={<Demo />} />
       <Route path='/traingleShape' element={<TraingleShape/>} />
+      <Route path='/reduxApp' element={<ReduxApp/>}/>
     </Routes>
   );
 }

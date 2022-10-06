@@ -31,6 +31,7 @@ const PageLinks = () => {
         {/* <h5><Link to="/demo">Demo</Link></h5> */}
         <h5><Link to='/incrementValue'>Button-Demo</Link></h5>
         <h5><Link to='/traingleShape'>Taingle-Shape</Link></h5>
+        <h5><Link to='/reduxApp'>React-Redux</Link></h5>
       </div>
     </div>
   )
