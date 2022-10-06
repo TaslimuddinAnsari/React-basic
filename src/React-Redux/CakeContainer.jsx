@@ -8,7 +8,8 @@ const CakeContainer = (props) => {
   return (
     <div className='text-center m-4'>
       <h5>Number of cake - {props.numberOfCakes}</h5>
-      <button className='btn btn-primary' onClick={props.buyCake}>Buy Cake</button>
+      <button className='btn btn-primary' 
+      onClick={props.buyCake}>Buy Cake</button>
     </div>
   )
 }
@@ -16,7 +17,7 @@ const CakeContainer = (props) => {
 // step-1
 const mapStateToProps = state =>{
   return{
-    numberOfCakes: state.numberOfCakes
+    numberOfCakes: state.cake.numberOfCakes
   }
 }
 
